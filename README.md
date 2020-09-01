@@ -122,14 +122,15 @@ For evaluation, please run:
 
 
 ## Run on Raspberry Pi
-Please refer to `rpi.md`.
+If you want to run models on Raspberry Pi, please refer to `rpi.md`.
 
 ## Successful running screen shot
+An successful training result (1 epoch) is shown below.
+![](https://i.imgur.com/VljSa0S.png)
 
-![](https://i.imgur.com/TeDNEIe.jpg)
 
 ## Updating information
-Please visit [here](https://hackmd.io/2GvHLw2wQSSMqwEzMDFx4A) for newest updating.
+Please visit [here](https://hackmd.io/2GvHLw2wQSSMqwEzMDFx4A) for the newest updating.
 
 
 
