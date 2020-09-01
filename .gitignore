@@ -8,7 +8,6 @@ __pycache__/
 dataset/
 mid_product/
 models/
-result/
 from_CSP/
 *.zip
 
