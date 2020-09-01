@@ -1,0 +1,25 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+.ipynb_checkpoints/
+*.py[cod]
+*$py.class
+
+# dataset folder
+dataset/
+mid_product/
+models/
+result/
+from_CSP/
+*.zip
+
+# personal helper files
+upload.sh
+upload_Dalma.sh
+code_snippets.py
+test.py
+
+# VSCode/PyCharm and System
+desktop.ini
+.vscode/
+.DS_Store/
+.idea/

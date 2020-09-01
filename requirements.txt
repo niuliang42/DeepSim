@@ -1,0 +1,9 @@
+pytorch
+pandas
+matplotlib
+seaborn
+h5py
+scikit-learn
+scikit-image
+tqdm
+packaging
