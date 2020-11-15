@@ -5,19 +5,23 @@ This repo is the source code for **DeepSIM: GPS Spoofing Detection on UAVs using
 In this artifact, we will provide the source codes of our implementations as well as the corresponding dataset (approx.~12.08 Gigabyte with 967 aerial photos and paired satellite images), which are used in Section 8 of our accepted paper. The dataset consists of training set and test set which can be used to train a new model from scratch and evaluate a trained model, respectively. We also provide trained models that were used in our evaluation procedure. The training and testing of our models require a CUDA-enabled GPU in Linux OS, and the software is implemented using Python. To run our on-board model, i.e. SqueezeNet v1.1, on the IoT platform, a Raspberry Pi is needed, where 3B+ with CPU $\ge$ 1.4GHz and memory $\ge$ 1GB is recommended. Our software also depends on Pytorch, Numpy, and some other Python libraries for it to run.
 
 
-- [DeepSim: GPS Spoofing Detection](#deepsim:-gps-spoofing-detection)
-  - [How to Run](#How-to-Run)
-    - [Environment](#Environment)
-    - [Hardware Recommendation](#Hardware-Recommendation)
-    - [Software and Package](#Software-and-Package)
-  - [Data Directory Organization](#Data-Directory-Organization)
-    - [Dataset](#Dataset)
-    - [Data Augmentation](#Data-Augmentation)
-    - [Trained Models](#Trained-Models)
-    - [Commands to run](#Commands-to-run)
-  - [Code File Organization](#Code-File-Organization)
+- [DeepSim: GPS Spoofing Detection Artifact](#deepsim-gps-spoofing-detection-artifact)
+  - [Abstract](#abstract)
+  - [Objective](#objective)
+  - [How to Run](#how-to-run)
+    - [Environment](#environment)
+    - [Hardware Recommendation](#hardware-recommendation)
+    - [Software and Package](#software-and-package)
+  - [Data Directory Organization](#data-directory-organization)
+    - [Dataset](#dataset)
+    - [Data Augmentation](#data-augmentation)
+    - [Trained Models](#trained-models)
+    - [Commands to run](#commands-to-run)
+  - [Code File Organization](#code-file-organization)
   - [Run on Raspberry Pi](#run-on-raspberry-pi)
-  - [Updating information](#Updating-information)
+  - [Successful running screen shot](#successful-running-screen-shot)
+  - [Updating information](#updating-information)
+  - [Cite our work](#cite-our-work)
 ## Objective
 Run our deep learning models, and they will compare the aerial photos with the satellite images, to see whether a drone is attacked by GPS spoofing.
 An example of a paired aerial photo and its corresponding image is shown as follows.
@@ -132,5 +136,16 @@ An successful training result (1 epoch) is shown below.
 ## Updating information
 Please visit [here](https://hackmd.io/2GvHLw2wQSSMqwEzMDFx4A) for the newest updating.
 
-
+## Cite our work
+Please use the following bibtex code to cite our work:
+```
+@InProceedings{nian2020deepsim,
+  title={{DeepSIM: GPS Spoofing Detection on UAVs using Satellite Imagery Matching}},
+  author={Nian Xue, Liang Niu, Xianbin Hong, Zhen Li, Larissa Hoffaeller, Christina Pöpper},
+  booktitle={Proceedings of the Annual Computer Security Applications Conference 
+  (ACSAC)},
+  year={2020},
+  doi={10.1145/3427228.3427254}
+}
+```
 
